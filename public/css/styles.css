@@ -1,0 +1,158 @@
+h1,h2,h3{
+	font-family:  "Montserrat-Bold";
+}
+h1{
+	font-size: 20px 5rem;
+	font-style: bold;
+	font-weight: 900;
+	line-height: 1.5;
+	margin-left: 45px;
+}
+
+h2{
+	font-size: 3rem;
+	margin-top: 20px;
+}
+
+
+p{
+	color: #8f8f8f;
+}
+
+body{
+	font-family: "Montserrat";
+}
+
+.view{
+	display: block;
+}
+#joke{
+	color: #b82929;
+}
+.sub-content{
+	color: black;
+	padding: 2%;
+	margin-left: 7%;
+}
+#title{
+	background-color: #FFC107;
+	color: #fff;
+}
+
+.container-fluid{
+	padding: 3%  15% 10%;
+}
+
+.navbar-brands{
+	font-family: "Ubuntu";
+	padding: 2%;
+	font-weight: bold;
+	font-style: italic;
+	color : black;
+	text-decoration: none;
+	width: 100px;
+}
+
+.jk{
+	margin: 16px;
+	padding: 2% 1%;
+	font-family: "Ubuntu";
+	font-size: 2.5;
+	font-weight: bold;
+	color: black;
+}
+
+
+.nav-item{
+	padding: 0 18px;
+}
+
+.nav-link{
+	font-size: 1.2rem;
+	font-family: "Montserrat-Light";
+}
+
+.icon{
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+.icon:hover{
+	color:#ff4c68;
+}
+
+.but-clr{
+	background-color: #FFC107;
+	color: black;
+	hover: green;
+}
+
+#types{
+	padding: 100px;
+	text-align: center;
+}
+
+.card{
+	padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+	.title-img{
+		position: static;
+		transform: rotate(0deg);	
+	}
+}
+
+#cta{
+	padding: 7% 20%;
+	text-align: center;
+	background-color: #ff4c68;
+	color: #fff;
+}
+
+#footer{
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+}
+
+.social{
+	padding: 1%;
+	color: gray;
+	border: none;
+	text-decoration: none;
+}
+
+.wa{
+	color: gray;
+	text-decoration: none;
+}
+
+.wa:hover{
+	color: black;
+}
+
+#copy-btn {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  border-radius: 50%;
+  float: right;
+}
+
+@media screen and (min-width: 1200px){
+	#mobile-share{
+		visibility: hidden;
+		clear: both;
+		float: left;
+		margin: 10px auto 5px 20px;
+		width: 50%;
+		display: none;
+	}
+}
